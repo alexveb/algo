@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import MainComponent from "./ContentData";
 import MyNavbar from "./Navbar";
+import Search from "./Search";
 
 
 function App(){
@@ -10,6 +11,7 @@ function App(){
         <div>
             <Header />
             <MyNavbar />
+            <h1 className="lastNews">Τελευταία Νέα</h1>
             <MainComponent />
             <Footer />
         </div>

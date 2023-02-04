@@ -36,14 +36,13 @@ html, body {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-    @media (max-width: 1200px) {
-        .heading-mobile {
-            padding-bottom: 5px;
-            padding-top: 5px;
-            font-size: 0.65rem;
-        }
-        
+@media (max-width: 1200px) {
+    .heading-mobile {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 0.65rem;
     }
+}
 
 .logo {
     background-color: #00243C;
@@ -127,7 +126,6 @@ footer p {
     }
 }
 
-
 /* Social Media */
 
 .socialIcons {
@@ -161,4 +159,26 @@ footer p {
 /* Change mouse to pointer */
 .pointer {
     cursor: pointer;
+}
+
+/* Search Bar */
+.search {
+    display: block;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+@media (max-width: 1200px){
+    .search-mobile {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+.search-position {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
