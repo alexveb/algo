@@ -6,7 +6,7 @@ const Content = ({contentArray}) => {
     <>
       {contentArray.map(item => (
         <div className="postContent postContent-mobile" key={item.id}>
-          <h2>{item.title}</h2>
+          <h5>{item.title}</h5>
           <p>{item.description}</p>
         </div>
       ))}

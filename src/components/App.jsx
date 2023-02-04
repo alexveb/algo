@@ -11,7 +11,7 @@ function App(){
         <div>
             <Header />
             <MyNavbar />
-            <h1 className="lastNews">Τελευταία Νέα</h1>
+            <h3 className="lastNews">Τελευταία Νέα</h3>
             <MainComponent />
             <Footer />
         </div>

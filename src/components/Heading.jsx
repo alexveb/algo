@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Heading() {
+function DayTime() {
     const [date, setDate] = useState(new Date());
     const currentTime = date.getHours();
     const [time, setTime] = useState(new Date());
@@ -59,4 +59,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default DayTime;
