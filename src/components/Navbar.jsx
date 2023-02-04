@@ -1,14 +1,15 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import Showcase from './Fontawesome';
+
 
 function MyNavbar() {
 
     
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navContent">
       <Container>
-          <Navbar.Brand href="#home">
+          {/* <Navbar.Brand href="#home">
             <img
               src="images/algo-logo.ico"
               width="25"
@@ -16,27 +17,27 @@ function MyNavbar() {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-          </Navbar.Brand>
-        <Navbar.Brand href="#">Μενού</Navbar.Brand>
+          </Navbar.Brand> */}
+        {/* <Navbar.Brand href="#">Μενού</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#">Αρχική</Nav.Link>
+          <Nav className="mx-auto style={{ justifyContent: 'center' }} items">
+            <Nav.Link href="/">Αρχική</Nav.Link>
             {/*<Nav.Link href="#">Σχετικά με εμάς</Nav.Link>*/}
             <NavDropdown title="Σχετικά με εμάς" id="navbarScrollingDropdown">
               <NavDropdown.Item href="" onClick={() => window.open("/pdfs/katastatiko/EEA_katastatiko_2006.pdf")}>
                 Καταστατικό
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action2">
+              <NavDropdown.Item href="" onClick="">
                 Διοικητικό Συμβούλιο
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action3">
+              <NavDropdown.Item href="" onClick={() => window.open("/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf")}>
                 Λίγα λόγια για εμάς
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item onClick={() => window.open("/pdfs/diadromi1994/istoriko_algologias.pdf")}>
                 Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -48,12 +49,19 @@ function MyNavbar() {
                 Εις μνήμην
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">Συνέδρια και Εκδηλώσεις</Nav.Link>
+            <NavDropdown title="Συνέδρια και Εκδηλώσεις" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="https://www.google.com/">
+                Ελληνικά Συνέδρια και Εκδηλώσεις
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="">
+                Διεθνή Συνέδρια και Εκδηλώσεις
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+            </NavDropdown>
             <Nav.Link href="#">Δημοσιεύσης - Συστάσεις</Nav.Link>
             <Nav.Link href="#">Εκπαίδευση</Nav.Link>
             <Nav.Link href="#">Εκδόσεις Ε.Ε.Α</Nav.Link>
-            <Nav.Link href="#">Είσοδος</Nav.Link>
-            <Nav.Link href="#">Εγγραφή</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

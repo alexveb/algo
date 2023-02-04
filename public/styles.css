@@ -1,11 +1,164 @@
-body {
+/* body {
     margin: 0;
     background-color: whitesmoke;
-}
-.header-img {
+} */
+/* Html font */
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+ 
+/* body style  */
+/* Fix Right Side Space where not get full side of screen */
+html, body {
     width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* navbar not overwrite */
+.navContent {
+    z-index: 999;
+}
+
+.heading {
+    text-align: center;
+    /* background-color: #00243C; */
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+    @media (max-width: 1200px) {
+        .heading-mobile {
+            padding-bottom: 5px;
+            padding-top: 5px;
+            font-size: 0.65rem;
+        }
+        
+    }
+
+.logo {
+    background-color: #00243C;
+    /* display: block; */
+    margin: auto;
+    padding-bottom: 1rem;;
+}
+
+.logo-img {
+    padding-top: 1rem;
+    width: 100px;
     height: 100px;
-    border-radius: 0px;
+    padding-bottom: 1rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .logo-img-mobile {
+      width: 50px;
+      height: 50px;
+    }
+  }
+/* Change Font-size on H5 and H6 for Header.jsx */
+.sizeHeaderh5 {
+    font-size: 1rem;
+}
+    @media (max-width: 1200px) {
+        .sizeHeaderh5m {
+            font-size: 0.7rem;
+        }
+    }
+
+.sizeHeaderh6 {
+    font-size: 0.9rem;
+}
+    @media (max-width: 1200px) {
+        .sizeHeaderh6m {
+            font-size: 0.65rem;
+        }
+    }
+
+
+/* Footer style */
+footer {
+    position: relative;
+    background-color: #00243C;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background: white; */
+}
+      
+footer p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* Time and Date style */
+.clock {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: #00243C;
+  }
+
+/* Button Login-Register Change Size and Position */
+.loginRegister {
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media (max-width: 1200px){
+    .spaceFromTop-mobile {
+        margin-top: 10px;
+    }
 }
 
 
+/* Social Media */
+
+.socialIcons {
+    margin-top: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* BLOG CONTENT CSS */
+.lastNews {
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.postContent {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+    @media (max-width: 1200px) {
+    .postContent-mobile {
+        width: 80%;
+        font-size: 1rem;
+        text-align: justify;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+}
+
+/* Change mouse to pointer */
+.pointer {
+    cursor: pointer;
+}
