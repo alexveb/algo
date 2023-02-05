@@ -1,15 +1,20 @@
 import React from "react";
-import { Navbar, Nav, Container, NavDropdown, Form, Button } from 'react-bootstrap';
-import Showcase from './Fontawesome';
-
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavDropdown,
+  Form,
+  Button,
+} from "react-bootstrap";
+import Showcase from "./Fontawesome";
+import { Link } from "react-router-dom";
 
 function MyNavbar() {
-
-    
   return (
     <Navbar bg="light" expand="lg" className="navContent">
       <Container>
-          {/* <Navbar.Brand href="#home">
+        {/* <Navbar.Brand href="#home">
             <img
               src="images/algo-logo.ico"
               width="25"
@@ -19,45 +24,67 @@ function MyNavbar() {
             />
           </Navbar.Brand> */}
         {/* <Navbar.Brand href="#">Μενού</Navbar.Brand> */}
+        {/* function for onClick
+        
+        onClick={() =>
+                  window.open("/pdfs/katastatiko/EEA_katastatiko_2006.pdf")
+                }
+                 */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto style={{ justifyContent: 'center' }} items">
-            <Nav.Link href="/">Αρχική</Nav.Link>
+            <Nav.Link>
+              <Link className="no-underline" to="/">
+                Αρχική
+              </Link>
+            </Nav.Link>
             {/*<Nav.Link href="#">Σχετικά με εμάς</Nav.Link>*/}
             <NavDropdown title="Σχετικά με εμάς" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="" onClick={() => window.open("/pdfs/katastatiko/EEA_katastatiko_2006.pdf")}>
+              <NavDropdown.Item href="/pdfs/katastatiko/EEA_katastatiko_2006.pdf">
                 Καταστατικό
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="" onClick="">
-                Διοικητικό Συμβούλιο
+              <NavDropdown.Item>
+                <Link className="no-underline" to="/dsymboulio2023-2026">
+                  Διοικητικό Συμβούλιο
+                </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="" onClick={() => window.open("/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf")}>
+              <NavDropdown.Item href="/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf">
                 Λίγα λόγια για εμάς
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item onClick={() => window.open("/pdfs/diadromi1994/istoriko_algologias.pdf")}>
+              <NavDropdown.Item href="/pdfs/diadromi1994/istoriko_algologias.pdf">
                 Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Προηγούμενα Διοικητικά Συμβούλια
+              <NavDropdown.Item>
+                <Link className="no-underline" to="/dsymboulia1994-2023">
+                  Προηγούμενα Διοικητικά Συμβούλια
+                </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action6">
-                Εις μνήμην
+              <NavDropdown.Item href="#action6">Εις μνήμην</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link className="no-underline" to="/aitisi-eggrafis-melous">
+                  Αίτηση Εγγραφής Μέλους στην Ε.Ε.Α.
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Συνέδρια και Εκδηλώσεις" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="https://www.google.com/">
-                Ελληνικά Συνέδρια και Εκδηλώσεις
+            <NavDropdown
+              title="Συνέδρια και Εκδηλώσεις"
+              id="navbarScrollingDropdown"
+            >
+              <NavDropdown.Item>
+                <Link className="no-underline" to="/blog">
+                  Ελληνικά Συνέδρια και Εκδηλώσεις
+                </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="">
                 Διεθνή Συνέδρια και Εκδηλώσεις
               </NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link href="#">Δημοσιεύσης - Συστάσεις</Nav.Link>
             <Nav.Link href="#">Εκπαίδευση</Nav.Link>
