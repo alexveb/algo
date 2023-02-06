@@ -1,10 +1,6 @@
 import React from "react";
 import DayTime from "./Heading";
 import Button from "react-bootstrap/Button";
-import MyNavbar from "./Navbar";
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import { Container } from 'react-bootstrap';
 
 function Header() {
   const redirect = () => {
@@ -45,14 +41,14 @@ function Header() {
             variant="primary"
             href="#"
           >
-            Είσοδος <i class="fa-solid fa-right-to-bracket"></i>
+            Είσοδος <i className="fa-solid fa-right-to-bracket"></i>
           </Button>
           <Button
             className="loginRegister loginRegister"
             variant="primary"
             href="#"
           >
-            Εγγραφή <i class="fa-solid fa-user-plus"></i>
+            Εγγραφή <i className="fa-solid fa-user-plus"></i>
           </Button>
         </div>
       </div>

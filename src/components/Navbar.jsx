@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  Button,
-} from "react-bootstrap";
-import Showcase from "./Fontawesome";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function MyNavbar() {
@@ -75,9 +67,10 @@ function MyNavbar() {
             <NavDropdown
               title="Συνέδρια και Εκδηλώσεις"
               id="navbarScrollingDropdown"
+              className="no-underline"
             >
               <NavDropdown.Item>
-                <Link className="no-underline" to="/blog">
+                <Link className="no-underline" to="/">
                   Ελληνικά Συνέδρια και Εκδηλώσεις
                 </Link>
               </NavDropdown.Item>
@@ -87,8 +80,16 @@ function MyNavbar() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#">Δημοσιεύσης - Συστάσεις</Nav.Link>
-            <Nav.Link href="#">Εκπαίδευση</Nav.Link>
-            <Nav.Link href="#">Εκδόσεις Ε.Ε.Α</Nav.Link>
+            <Nav.Link>
+              <Link className="no-underline" to="/Education">
+                Εκπαίδευση
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link className="no-underline" to="/PublicationsEEA">
+                Εκδόσεις Ε.Ε.Α
+              </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

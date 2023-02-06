@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const AddPost = () => {
   const [items, setItems] = useState([]);
@@ -27,4 +27,3 @@ const AddPost = () => {
 };
 
 export default AddPost;
-

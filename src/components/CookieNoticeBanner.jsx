@@ -64,10 +64,10 @@ const CookieNoticeBanner = () => {
 
   return (
     <div style={styles.container}>
-      <p style={styles.message}>
+      <div style={styles.message}>
         This website uses cookies to improve your experience. By continuing to
         use this site, you accept our use of cookies.
-      </p>
+      </div>
       <div style={styles.buttonsContainer}>
         <button style={styles.button} onClick={handleAcceptCookie}>
           Accept

@@ -2,9 +2,11 @@ import React from "react";
 import App from "./components/App";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import DSymb2023 from "./pages/dsymb2023";
+import DSymb from "./pages/dsymb";
 import PrevDSymboulia from "./pages/previousdsymb";
 import Aitisi from "./pages/aitisi_eggrafis_melous";
+import Education from "./pages/education";
+import PublicationsEEA from "./pages/publicationsEEA";
 
 import posthog from "posthog-js";
 
@@ -19,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/dsymboulio2023-2026",
-    element: <DSymb2023 />,
+    element: <DSymb />,
   },
   {
     path: "/dsymboulia1994-2023",
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "/aitisi-eggrafis-melous",
     element: <Aitisi />,
+  },
+  {
+    path: "/Education",
+    element: <Education />,
+  },
+  {
+    path: "/PublicationsEEA",
+    element: <PublicationsEEA />,
   },
 ]);
 

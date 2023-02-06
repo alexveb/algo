@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function DayTime() {
-    const [date, setDate] = useState(new Date());
-    const currentTime = date.getHours();
-    const [time, setTime] = useState(new Date());
+  const [date, setDate] = useState(new Date());
+  const currentTime = date.getHours();
+  const [time, setTime] = useState(new Date());
 
   //   let greeting;
 
-    const customStyle = {
-        color: ""
-    };
+  const customStyle = {
+    color: "",
+  };
 
   // if (currentTime < 12) {
   //   greeting = "Καλημέρα";
@@ -22,6 +22,7 @@ function DayTime() {
   //   customStyle.color = "blue";
   // }
 
+  //Time update every 1 sec
   useEffect(() => {
     const intervalId = setInterval(() => {
       setTime(new Date());
@@ -32,13 +33,40 @@ function DayTime() {
     };
   }, []);
 
+  //Day check every 1 sec
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setDate(new Date());
+    }, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
   const days = [
-    "Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρη", "Πέμπτη", "Παρασκευή", "Σάββατο",
+    "Κυριακή",
+    "Δευτέρα",
+    "Τρίτη",
+    "Τετάρη",
+    "Πέμπτη",
+    "Παρασκευή",
+    "Σάββατο",
   ];
 
   const months = [
-    'Ιανουαρίου', 'Φεβρουαρίου', 'Μαρτίου', 'Απριλίου', 'Μαίου', 'Ιουνίου',
-    "Ιουλίου", "Αυγούστου", "Σεμπτεμβρίου", "Οκτωβρίου", "Νοεμβρίου", "Δεκεμβρίου",
+    "Ιανουαρίου",
+    "Φεβρουαρίου",
+    "Μαρτίου",
+    "Απριλίου",
+    "Μαίου",
+    "Ιουνίου",
+    "Ιουλίου",
+    "Αυγούστου",
+    "Σεμπτεμβρίου",
+    "Οκτωβρίου",
+    "Νοεμβρίου",
+    "Δεκεμβρίου",
   ];
 
   const day = days[date.getDay()];
@@ -48,14 +76,16 @@ function DayTime() {
 
   return (
     <div>
-        <p className="clock heading heading-mobile" style={customStyle}>{day}, {dayNumber} {month} {year}</p>
-        <p className="clock heading heading-mobile">Ώρα: {time.toLocaleTimeString("el-GR")}</p>
-        {/* <h1 className="heading" style={customStyle}>
+      <p className="clock heading heading-mobile" style={customStyle}>
+        {day}, {dayNumber} {month} {year}
+      </p>
+      <p className="clock heading heading-mobile">
+        Ώρα: {time.toLocaleTimeString("el-GR")}
+      </p>
+      {/* <h1 className="heading" style={customStyle}>
         {greeting} </h1>
         <p className="clock">Ώρα: {time.toLocaleTimeString()} </p> */}
     </div>
-    
-   
   );
 }
 

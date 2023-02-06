@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
 import MyNavbar from "../components/Navbar";
 import CookieNotice from "../components/CookieNoticeBanner";
 import Footer from "../components/Footer";
