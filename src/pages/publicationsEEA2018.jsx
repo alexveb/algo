@@ -13,3 +13,5 @@ function PublicationsEEA2018() {
     </MainLayout>
   );
 }
+
+export default PublicationsEEA2018;
