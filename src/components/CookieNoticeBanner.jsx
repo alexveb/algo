@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PostHog from "posthog-js";
+import Cookies from "js-cookie";
 
 const styles = {
   container: {
@@ -32,51 +32,36 @@ const styles = {
 };
 
 const CookieNoticeBanner = () => {
-  const [cookieAccepted, setCookieAccepted] = useState(false);
-  const [showBanner, setShowBanner] = useState(false);
+  const [showBanner, setShowBanner] = useState(!Cookies.get("cookiesAccepted"));
 
-  const handleAcceptCookie = () => {
-    setCookieAccepted(true);
+  const handleAccept = () => {
+    Cookies.set("cookiesAccepted", true, { expires: 365 });
     setShowBanner(false);
-    PostHog.capture("accept_cookie", {});
-    localStorage.setItem("cookieAccepted", true);
   };
 
-  const handleDeclineCookie = () => {
-    setCookieAccepted(false);
+  const handleDecline = () => {
+    Cookies.set("cookiesAccepted", false, { expires: 7 });
     setShowBanner(false);
-    PostHog.capture("decline_cookie", {});
-    localStorage.removeItem("cookieAccepted");
   };
-
-  React.useEffect(() => {
-    const cookieAccepted = localStorage.getItem("cookieAccepted");
-    if (!cookieAccepted) {
-      setShowBanner(true);
-    } else {
-      setShowBanner(false);
-    }
-  }, []);
-
-  if (!showBanner) {
-    return null;
-  }
 
   return (
-    <div style={styles.container}>
-      <div style={styles.message}>
-        This website uses cookies to improve your experience. By continuing to
-        use this site, you accept our use of cookies.
+    showBanner && (
+      <div style={styles.container} className="cookie-banner">
+        <div style={styles.message}>
+          By using this website, you agree to our use of cookies. We use cookies
+          to provide you with a great experience and to help our website run
+          effectively.
+        </div>
+        <div style={styles.buttonsContainer}>
+          <button style={styles.button} onClick={handleAccept}>
+            Accept
+          </button>
+          <button style={styles.button} onClick={handleDecline}>
+            Decline
+          </button>
+        </div>
       </div>
-      <div style={styles.buttonsContainer}>
-        <button style={styles.button} onClick={handleAcceptCookie}>
-          Accept
-        </button>
-        <button style={styles.button} onClick={handleDeclineCookie}>
-          Decline
-        </button>
-      </div>
-    </div>
+    )
   );
 };
 

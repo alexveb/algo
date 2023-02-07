@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import RedirectDiv from "../layout/RedirectDiv";
 
@@ -15,38 +16,56 @@ function Education() {
           <div className="pageMargin RedirectLinks pointer">
             <RedirectDiv to="/../pdfs/ekpaideush/2021-05-ARETAIEIO.pdf">
               ΕΠΑΝΑΛΗΠΤΙΚΑ ΜΑΘΗΜΑΤΑ ΓΙΑ ΤΙΣ ΕΞΕΤΑΣΕΙΣ ΤΟΥ ΕΥΡΩΠΑΪΚΟΥ ΔΙΠΛΩΜΑΤΟΣ
-              ΑΝΑΙΣΘΗΣΙΟΛΟΓΙΑΣ - ΜΑΙΟΣ 2021 Δείτε το πρόγραμμα
+              ΑΝΑΙΣΘΗΣΙΟΛΟΓΙΑΣ - ΜΑΙΟΣ 2021
             </RedirectDiv>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://europeanpainfederation.eu/education/pain-schools/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://europeanpainfederation.eu/education/pain-schools/"
+            >
               EFIC Pain Schools
-            </RedirectDiv>
+            </Link>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://europeanpainfederation.eu/education/pain-exams/european-diploma-in-pain-medicine-edpm/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://europeanpainfederation.eu/education/pain-exams/european-diploma-in-pain-medicine-edpm/"
+            >
               EFIC European Diploma in Pain Medicine (EDPM)
-            </RedirectDiv>
+            </Link>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://europeanpainfederation.eu/education/efic-fellowships/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://europeanpainfederation.eu/education/efic-fellowships/"
+            >
               EFIC Fellowships
-            </RedirectDiv>
+            </Link>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://europeanpainfederation.eu/education/efic-education-platform/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://europeanpainfederation.eu/education/efic-education-platform/"
+            >
               EFIC Education Platform
-            </RedirectDiv>
+            </Link>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://interventionalpainpractice.org/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://interventionalpainpractice.org/"
+            >
               WIP Fellow of Interventional Pain Practice (FIPP)
-            </RedirectDiv>
+            </Link>
           </div>
           <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="https://esraeurope.org/edra/">
+            <Link
+              className="RemoveUnderLineLink"
+              to="https://esraeurope.org/edra/"
+            >
               ESRA European Diploma in Regional Anaesthesia (EDRA)
-            </RedirectDiv>
+            </Link>
           </div>
         </div>
         <br />

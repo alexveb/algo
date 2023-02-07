@@ -3,6 +3,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import MyNavbar from "./Navbar";
 import CookieNotice from "./CookieNoticeBanner";
+import UpFooter from "./UpFooter";
+import FooterInfo from "./FooterInfo";
 
 function App() {
   return (
@@ -13,9 +15,8 @@ function App() {
       <Header />
       <MyNavbar />
       <div className="addSpaceFooter"></div>
-      <br />
-      <br />
-      <div className="addSpace"></div>
+      <UpFooter />
+      <FooterInfo />
       <Footer />
     </article>
   );

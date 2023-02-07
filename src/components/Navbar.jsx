@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import RedirectDiv from "../layout/RedirectDiv";
 
 function MyNavbar() {
   return (
@@ -32,8 +33,13 @@ function MyNavbar() {
             </Nav.Link>
             {/*<Nav.Link href="#">Σχετικά με εμάς</Nav.Link>*/}
             <NavDropdown title="Σχετικά με εμάς" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/pdfs/katastatiko/EEA_katastatiko_2006.pdf">
-                Καταστατικό
+              <NavDropdown.Item>
+                <RedirectDiv
+                  className="no-underline"
+                  to="/pdfs/katastatiko/EEA_katastatiko_2006.pdf"
+                >
+                  Καταστατικό
+                </RedirectDiv>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
@@ -42,12 +48,23 @@ function MyNavbar() {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf">
-                Λίγα λόγια για εμάς
+              <NavDropdown.Item>
+                <RedirectDiv
+                  className="no-underline"
+                  to="/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf"
+                >
+                  {" "}
+                  Λίγα λόγια για εμάς
+                </RedirectDiv>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/pdfs/diadromi1994/istoriko_algologias.pdf">
-                Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
+              <NavDropdown.Item>
+                <RedirectDiv
+                  className="no-underline"
+                  to="/pdfs/diadromi1994/istoriko_algologias.pdf"
+                >
+                  Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
+                </RedirectDiv>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
@@ -79,7 +96,7 @@ function MyNavbar() {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="">
+              <NavDropdown.Item>
                 Διεθνή Συνέδρια και Εκδηλώσεις
               </NavDropdown.Item>
             </NavDropdown>

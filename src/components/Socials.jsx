@@ -26,7 +26,7 @@ const Socials = () => (
     <i
       style={{ cursor: "pointer" }}
       onClick={() => {
-        window.location.href = "mailto:vermpisalexios1988@gmail.com";
+        window.location.href = "mailto:info@algologia.gr";
       }}
       className="fa-solid fa-envelope socialIcons moveIcon"
     ></i>

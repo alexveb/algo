@@ -1,6 +1,7 @@
 import MainLayout from "../layout/MainLayout";
 import RedirectDiv from "../layout/RedirectDiv";
 import Dots from "../layout/Dots";
+import { Link } from "react-router-dom";
 
 function PublicationsEEA() {
   return (
@@ -36,15 +37,15 @@ function PublicationsEEA() {
         </div>
         <Dots />
         <div className="pageMargin RedirectLinks pointer">
-          <RedirectDiv to="/PublicationsEEA2018">
+          <Link className="RemoveUnderLineLink" to="/PublicationsEEA2018">
             ΣΥΝΕΧΙΖΟΜΕΝΗ ΕΚΠΑΙΔΕΥΣΗ ΣΤΗΝ ΑΛΓΟΛΟΓΙΑ 2018
-          </RedirectDiv>
+          </Link>
         </div>
         <Dots />
         <div className="pageMargin RedirectLinks pointer">
-          <RedirectDiv to="/do_not_suffer_in_silence">
+          <Link className="RemoveUnderLineLink" to="/do_not_suffer_in_silence">
             ΜΗΝ ΥΠΟΦΕΡΕΤΕ ΣΙΩΠΗΛΑ
-          </RedirectDiv>
+          </Link>
         </div>
         <Dots />
         <div>

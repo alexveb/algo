@@ -232,6 +232,10 @@ footer div {
   text-decoration: underline;
 }
 
+.RemoveUnderLineLink {
+  text-decoration: none;
+}
+
 .aitisi {
   text-align: center;
   margin-top: 50px;
@@ -298,10 +302,18 @@ footer div {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .Pub-Rec-Mobile {
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
   }
+}
+
+.FooterInfo {
+  background-color: #00243c;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+  margin: auto;
 }

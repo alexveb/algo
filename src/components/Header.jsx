@@ -3,9 +3,16 @@ import DayTime from "./Heading";
 import Button from "react-bootstrap/Button";
 
 function Header() {
+  // const redirect = () => {
+  //   window.location.href = "/";
+  // };
+  // const redirect = () => {
+  //   window.location.replace("/");
+  // };
   const redirect = () => {
-    window.location.href = "/";
+    window.location.assign("/");
   };
+
   return (
     <div className="row logo">
       <div className="col-lg-4 container d-flex justify-content-center align-items-center">

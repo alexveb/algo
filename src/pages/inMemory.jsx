@@ -1,5 +1,4 @@
 import MainLayout from "../layout/MainLayout";
-import RedirectDiv from "../layout/RedirectDiv";
 
 function InMemory() {
   return (

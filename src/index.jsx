@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./components/App";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DSymb from "./pages/dsymb";
 import PrevDSymboulia from "./pages/previousdsymb";
 import Aitisi from "./pages/aitisi_eggrafis_melous";

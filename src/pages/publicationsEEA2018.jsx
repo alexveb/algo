@@ -31,6 +31,7 @@ function PublicationsEEA2018() {
         </div>
         <br />
         <br />
+        <div className="addSpace"></div>
       </div>
     </MainLayout>
   );

@@ -3,6 +3,8 @@ import MyNavbar from "../components/Navbar";
 import CookieNotice from "../components/CookieNoticeBanner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import UpFooter from "../components/UpFooter";
+import FooterInfo from "../components/FooterInfo";
 
 function MainLayout({ children }) {
   return (
@@ -13,6 +15,8 @@ function MainLayout({ children }) {
       <Header />
       <MyNavbar />
       <div>{children}</div>
+      <UpFooter />
+      <FooterInfo />
       <Footer />
     </div>
   );

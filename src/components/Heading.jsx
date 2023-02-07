@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function DayTime() {
   const [date, setDate] = useState(new Date());
-  const currentTime = date.getHours();
+  // const currentTime = date.getHours();
   const [time, setTime] = useState(new Date());
 
   //   let greeting;
