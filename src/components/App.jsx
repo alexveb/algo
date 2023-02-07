@@ -13,6 +13,9 @@ function App() {
       <Header />
       <MyNavbar />
       <div className="addSpaceFooter"></div>
+      <br />
+      <br />
+      <div className="addSpace"></div>
       <Footer />
     </article>
   );

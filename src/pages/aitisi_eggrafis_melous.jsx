@@ -19,6 +19,8 @@ function Aitisi() {
           Αίτηση Μέλους σε μορφή PDF
         </RedirectDiv>
       </div>
+      <br />
+      <br />
       <div className="addSpace"></div>
     </MainLayout>
   );
