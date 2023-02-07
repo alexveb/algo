@@ -11,6 +11,7 @@ import PublicationsEEA2018 from "./pages/publicationsEEA2018";
 import DontSuffer from "./pages/DOnotSUFFERinSILENCE";
 import InMemory from "./pages/inMemory";
 import PublicationsRecommendations from "./pages/Publications_Recommendations";
+
 import posthog from "posthog-js";
 
 posthog.init("phc_A8YgxiNCT4Kfx8y4XyfCdsJRoCNo8yMdbea3juKMIS8", {
