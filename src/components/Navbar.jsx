@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import RedirectDiv from "../layout/RedirectDiv";
 
 function MyNavbar() {
@@ -33,13 +33,12 @@ function MyNavbar() {
             </Nav.Link>
             {/*<Nav.Link href="#">Σχετικά με εμάς</Nav.Link>*/}
             <NavDropdown title="Σχετικά με εμάς" id="navbarScrollingDropdown">
-              <NavDropdown.Item>
-                <RedirectDiv
-                  className="no-underline"
-                  to="/pdfs/katastatiko/EEA_katastatiko_2006.pdf"
-                >
-                  Καταστατικό
-                </RedirectDiv>
+              <NavDropdown.Item
+                onClick={() =>
+                  window.open("/pdfs/katastatiko/EEA_katastatiko_2006.pdf")
+                }
+              >
+                Καταστατικό
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
@@ -48,23 +47,20 @@ function MyNavbar() {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>
-                <RedirectDiv
-                  className="no-underline"
-                  to="/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf"
-                >
-                  {" "}
-                  Λίγα λόγια για εμάς
-                </RedirectDiv>
+              <NavDropdown.Item
+                onClick={() =>
+                  window.open("/pdfs/ligaLogiaGiaEmas/2020-12-09.pdf")
+                }
+              >
+                Λίγα λόγια για εμάς
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>
-                <RedirectDiv
-                  className="no-underline"
-                  to="/pdfs/diadromi1994/istoriko_algologias.pdf"
-                >
-                  Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
-                </RedirectDiv>
+              <NavDropdown.Item
+                onClick={() =>
+                  window.open("/pdfs/diadromi1994/istoriko_algologias.pdf")
+                }
+              >
+                Η διαδρομή της Ε.Ε.Α από το 1994 μέχρι σήμερα
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
@@ -91,13 +87,18 @@ function MyNavbar() {
               className="no-underline"
             >
               <NavDropdown.Item>
-                <Link className="no-underline" to="/">
+                <Link className="no-underline" to="/GreekConferencesAndEvents">
                   Ελληνικά Συνέδρια και Εκδηλώσεις
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-                Διεθνή Συνέδρια και Εκδηλώσεις
+                <Link
+                  className="no-underline"
+                  to="/InternationalConferencesAndEvents"
+                >
+                  Διεθνή Συνέδρια και Εκδηλώσεις
+                </Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>

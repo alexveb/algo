@@ -11,7 +11,8 @@ function Dots() {
           height: 10,
           borderRadius: "50%",
           backgroundColor: "gray",
-          marginRight: 20,
+          //Fix Dots to be full at center
+          margin: "0 10px",
         }}
       />
     );

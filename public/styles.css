@@ -266,7 +266,7 @@ footer div {
   text-align: justify;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -274,7 +274,7 @@ footer div {
     text-align: justify;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -316,4 +316,36 @@ footer div {
   font-size: 0.75rem;
   text-align: center;
   margin: auto;
+}
+
+/* GreekConferencesAndEvents */
+
+.GreekCon {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media (max-width: 1200px) {
+  .GreekConMobile {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.GreekConCenter {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .imgMobile {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.InternationalCon {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }

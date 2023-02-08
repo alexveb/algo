@@ -1,4 +1,5 @@
 import MainLayout from "../layout/MainLayout";
+import Dots from "../layout/Dots";
 
 function InMemory() {
   return (
@@ -31,10 +32,10 @@ function InMemory() {
               στην πραγματοποίηση των σχεδίων της Εταιρείας. Καλό παράδεισο φίλε
               Στέλιο!
               <br />
-              <br />
             </div>
           </div>
         </div>
+        <Dots />
         <div className="pageMargin"></div>
         <div className="row">
           <div className="col-lg-2 container d-flex justify-content-center align-items-center">
@@ -115,52 +116,34 @@ function InMemory() {
               «παιδιά» της, θα την θυμούνται πάντα με σεβασμό, εκτίμηση κι
               αγάπη. Καλή ανάπαυση, αγαπημένη μας Βάσω…
               <br />
+            </div>
+          </div>
+          <Dots />
+        </div>
+        <div className="pageMargin"></div>
+        <div className="row">
+          <div className="col-lg-4 container d-flex justify-content-center align-items-center">
+            <img
+              style={{ width: "80%" }}
+              className="painImg painImgMobile"
+              src="/images/inMemory/basilis_athanasoulias.jpeg"
+              alt="mis"
+            />
+          </div>
+          <div className="heading heading-mobile col-lg-8">
+            <h6 className="pageViewWithPhoto mobileViewWithPhoto">
+              Βασίλης Αθανασούλιας
+            </h6>
+            <div className="pageViewWithPhoto mobileViewWithPhoto pageMargin">
+              Η Ελληνική Εταιρεία Αλγολογίας με βαθύτατη οδύνη αποχαιρετά τον
+              Βασίλη Αθανασούλια, εκλεκτό της μέλος και πολυαγαπημένο φίλο. Καλό
+              σου ταξίδι Βασίλη μας... Η εξόδιος ακολουθία θα τελεστεί τη
+              Δευτέρα 30 Απριλίου 2018 και ώρα 11:00 στο Κοιμητήριο Παπάγου.
               <br />
             </div>
           </div>
-          <div className="row">
-            <div className="pageMargin"></div>
-            <div className="col-lg-4 container d-flex justify-content-center align-items-center">
-              <img
-                style={{ width: "90%" }}
-                className="painImg painImgMobile"
-                src="/images/inMemory/basilis_athanasoulias.jpeg"
-                alt="mis"
-              />
-            </div>
-            <div className="heading heading-mobile col-lg-8">
-              <h6 className="pageViewWithPhoto mobileViewWithPhoto">
-                Βασίλης Αθανασούλιας
-              </h6>
-              <div
-                style={{ marginBottom: "50px" }}
-                className="pageViewWithPhoto mobileViewWithPhoto pageMargin"
-              >
-                Με ανείπωτη θλίψη και οδύνη πληροφορηθήκαμε προ ολίγου την
-                απώλεια της εκλεκτής, σεβαστής κι αγαπημένης συναδέλφου και
-                φίλης Βασιλικής Χειμωνίτση-Κυπρίου, η οποία έφυγε από τη ζωή
-                χθες, Τετάρτη 31 Οκτωβρίου, σε ηλικία 90 ετών. Η Βασιλική
-                Χειμωνίτση-Κυπρίου ήταν από τους πρώτους αναισθησιολόγους στη
-                Ελλάδα με ενεργό και συνεχή παρουσία στον χώρο από το 1955.
-                Διετέλεσε πρόεδρος της Ελληνικής Αναισθησιολογικής Εταιρείας και
-                υπήρξε ιδρυτικό μέλος της Ελληνικής Εταιρείας Πόνου (η οποία
-                μετονομάστηκε το 2005 σε Ελληνική Εταιρεία Αλγολογίας) της
-                οποίας και διετέλεσε πρόεδρος από το 1994, που ιδρύθηκε, μέχρι
-                το 1999. Υπήρξε ακάματη εργάτρια στην αντιμετώπιση του πόνου και
-                δικαίως αποκαλείτο «μάνα του πόνου» στην Ελλάδα, τίτλο τον οποίο
-                έφερε με υπερηφάνεια και συγκίνηση. Η εξόδιος ακολουθία θα ψαλεί
-                σήμερα, Πέμπτη 1 Νοεμβρίου, στις 15.00 η ώρα, στο κοιμητήριο
-                Κάτω Σουλίου όπου θα γίνει και ο ενταφιασμός. Στεφάνια θα
-                καταθέσουν η Ελληνική Εταιρεία Αλγολογίας και η Ελληνική
-                Αναισθησιολογική Εταιρεία. Κλίνοντας το γόνυ με σεβασμό, θλίψη
-                και συγκίνηση την αποχαιρετούμε και της ευχόμαστε καλή ανάπαυση.
-                Ας είναι ελαφρύ το χώμα, αγαπημένη όλων μας Βασιλική
-                Χειμωνίτση-Κυπρίου…
-                <br />
-                <br />
-              </div>
-            </div>
-          </div>
+          <Dots />
+          <div className="pageMargin"></div>
         </div>
       </div>
     </MainLayout>

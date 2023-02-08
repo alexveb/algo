@@ -9,25 +9,37 @@ function PublicationsEEA2018() {
         <h3 className="pageMargin">
           Βιβλία Συνεχιζόμενης Εκπαίδευσης στην Αλγολογία (ΣΕΑ)
         </h3>
-        <div className="pageMargin RedirectLinks pointer pageSizeMobile">
-          <RedirectDiv to="/../pdfs/ekdoseisEEA/2018/SEA-1-2018.pdf">
-            Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Α΄ Κύκλος
-          </RedirectDiv>
+        <div
+          onClick={() =>
+            window.open("/../pdfs/ekdoseisEEA/2018/SEA-1-2018.pdf")
+          }
+          className="pageMargin RedirectLinks pointer pageSizeMobile"
+        >
+          Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Α΄ Κύκλος
         </div>
-        <div className="pageMargin RedirectLinks pointer pageSizeMobile">
-          <RedirectDiv to="/../pdfs/ekdoseisEEA/2018/SEA-2-2018.pdf">
-            Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Β΄ Κύκλος
-          </RedirectDiv>
+        <div
+          onClick={() =>
+            window.open("/../pdfs/ekdoseisEEA/2018/SEA-2-2018.pdf")
+          }
+          className="pageMargin RedirectLinks pointer pageSizeMobile"
+        >
+          Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Β΄ Κύκλος
         </div>
-        <div className="pageMargin RedirectLinks pointer pageSizeMobile">
-          <RedirectDiv to="/../pdfs/ekdoseisEEA/2018/SEA-3-2018.pdf">
-            Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Γ΄ Κύκλος
-          </RedirectDiv>
+        <div
+          onClick={() =>
+            window.open("/../pdfs/ekdoseisEEA/2018/SEA-3-2018.pdf")
+          }
+          className="pageMargin RedirectLinks pointer pageSizeMobile"
+        >
+          Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Γ΄ Κύκλος
         </div>
-        <div className="pageMargin RedirectLinks pointer pageSizeMobile">
-          <RedirectDiv to="/../pdfs/ekdoseisEEA/2018/SEA-4-2018.pdf">
-            Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Δ΄ Κύκλος
-          </RedirectDiv>
+        <div
+          onClick={() =>
+            window.open("/../pdfs/ekdoseisEEA/2018/SEA-4-2018.pdf")
+          }
+          className="pageMargin RedirectLinks pointer pageSizeMobile"
+        >
+          Συνεχιζόμενη Εκπαίδευση στην Αλγολογία 2018 - Δ΄ Κύκλος
         </div>
         <br />
         <br />

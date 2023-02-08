@@ -1,4 +1,5 @@
 import MainLayout from "../layout/MainLayout";
+import Dots from "../layout/Dots";
 
 function PrevDSymboulia() {
   return (
@@ -54,6 +55,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">11ο ΔΙOIKHTIKO ΣΥMBOYΛΙΟ 2019 - 2022</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -102,6 +104,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">10ο ΔΙOIKHTIKO ΣΥMBOYΛΙΟ 2016 - 2019</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -150,6 +153,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">9ο ΔΙOIKHTIKO ΣΥMBOYΛΙΟ 2013 - 2016</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -198,6 +202,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">8ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 2010 - 2013</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -246,6 +251,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">7ο ΔΙOIKHTIKO ΣΥMBOYΛΙΟ 2008 - 2010</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -296,6 +302,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">6ο ΔlOIKHTIKO ΣYMBOYΛΙΟ 2005 - 2008</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -344,6 +351,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">5ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 2003 - 2005</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -392,6 +400,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">4ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 2001 - 2003</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -440,6 +449,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">3ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 1999 - 2001</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -488,6 +498,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">2ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 1997 - 1999</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -536,6 +547,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <div className="dsymb2023a">1ο ΔlOIKHTIKO ΣΥMBOYΛΙΟ 1994 - 1997</div>
         <table className="dsymb2023t dsymb2023t-mobile">
@@ -588,6 +600,7 @@ function PrevDSymboulia() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <br />
       </div>

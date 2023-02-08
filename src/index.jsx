@@ -11,12 +11,17 @@ import PublicationsEEA2018 from "./pages/publicationsEEA2018";
 import DontSuffer from "./pages/DOnotSUFFERinSILENCE";
 import InMemory from "./pages/inMemory";
 import PublicationsRecommendations from "./pages/Publications_Recommendations";
+import GreekConferencesAndEvents from "./pages/GreekConferencesAndEvents";
+import InternationalConferencesAndEvents from "./pages/InternationalConferencesAndEvents";
+import ImeridaAlgologias from "./pages/ImeridaAlgologias";
+import EEATrikala from "./pages/EEATrikala";
+import BiggestPainEdu from "./pages/BiggestPainEducationEvent";
+import IASP from "./pages/IASP";
 
-import posthog from "posthog-js";
-
-posthog.init("phc_A8YgxiNCT4Kfx8y4XyfCdsJRoCNo8yMdbea3juKMIS8", {
-  api_host: "https://app.posthog.com",
-});
+// import posthog from "posthog-js";
+// posthog.init("phc_A8YgxiNCT4Kfx8y4XyfCdsJRoCNo8yMdbea3juKMIS8", {
+//   api_host: "https://app.posthog.com",
+// });
 
 const router = createBrowserRouter([
   {
@@ -58,6 +63,30 @@ const router = createBrowserRouter([
   {
     path: "/Publications_Recommendations",
     element: <PublicationsRecommendations />,
+  },
+  {
+    path: "/GreekConferencesAndEvents",
+    element: <GreekConferencesAndEvents />,
+  },
+  {
+    path: "/InternationalConferencesAndEvents",
+    element: <InternationalConferencesAndEvents />,
+  },
+  {
+    path: "/ImeridaAlgologias",
+    element: <ImeridaAlgologias />,
+  },
+  {
+    path: "/EEATrikala",
+    element: <EEATrikala />,
+  },
+  {
+    path: "/BePartoftheBiggestPainEducationEventin2020",
+    element: <BiggestPainEdu />,
+  },
+  {
+    path: "/IASP",
+    element: <IASP />,
   },
 ]);
 

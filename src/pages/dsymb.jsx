@@ -1,5 +1,5 @@
 import MainLayout from "../layout/MainLayout";
-import RedirectDiv from "../layout/RedirectDiv";
+import Dots from "../layout/Dots";
 
 function DSymb() {
   return (
@@ -69,21 +69,32 @@ function DSymb() {
             </tr>
           </tbody>
         </table>
+        <Dots />
         <br />
         <br />
-        <div className="RedirectLinks dsymb2023link">
-          <RedirectDiv to="/../pdfs/praktiko_sigkrotisis/praktiko_sigkrotisis_2023.pdf">
-            ΠΡΑΚΤΙΚΟ ΣΥΓΚΡΟΤΗΣΗΣ ΣΕ ΣΩΜΑ ΤΟΥ ΝΕΟΥ Δ.Σ.
-          </RedirectDiv>
+        <div
+          onClick={() =>
+            window.open(
+              "/../pdfs/praktiko_sigkrotisis/praktiko_sigkrotisis_2023.pdf"
+            )
+          }
+          className="RedirectLinks dsymb2023link"
+        >
+          ΠΡΑΚΤΙΚΟ ΣΥΓΚΡΟΤΗΣΗΣ ΣΕ ΣΩΜΑ ΤΟΥ ΝΕΟΥ Δ.Σ.
           <br />
           <br />
-          <div>
-            <RedirectDiv to="/../pdfs/praktiko_eforeutikis/praktiko_eforeutikis_2023.pdf">
-              ΠΡΑΚΤΙΚΟ ΕΦΟΡΕΥΤΙΚΗΣ ΕΠΙΤΡΟΠΗΣ ΑΡΧΑΙΡΕΣΙΩΝ
-            </RedirectDiv>
+          <div
+            onClick={() =>
+              window.open(
+                "/../pdfs/praktiko_eforeutikis/praktiko_eforeutikis_2023.pdf"
+              )
+            }
+          >
+            ΠΡΑΚΤΙΚΟ ΕΦΟΡΕΥΤΙΚΗΣ ΕΠΙΤΡΟΠΗΣ ΑΡΧΑΙΡΕΣΙΩΝ
           </div>
         </div>
       </div>
+      <Dots />
       <br />
       <br />
     </MainLayout>

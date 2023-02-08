@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MyNavbar from "../components/Navbar";
 import CookieNotice from "../components/CookieNoticeBanner";
 import Footer from "../components/Footer";

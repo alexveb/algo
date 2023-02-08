@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import RedirectDiv from "../layout/RedirectDiv";
+import Dots from "../layout/Dots";
 
 function Education() {
   return (
@@ -9,68 +10,78 @@ function Education() {
         <div>
           <h3 className="pageMargin">Εκπαίδευση</h3>
           <div className="pageMargin RedirectLinks pointer">
+            {/* Link Need Update */}
             <RedirectDiv to="/">
               ΠΡΟΓΡΑΜΜΑ ΣΕΜΙΝΑΡΙΟΥ ΕΚΠΑΙΔΕΥΣΗΣ ΣΤΗΝ ΑΛΓΟΛΟΓΙΑ (ΣΕΑ)
             </RedirectDiv>
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <RedirectDiv to="/../pdfs/ekpaideush/2021-05-ARETAIEIO.pdf">
-              ΕΠΑΝΑΛΗΠΤΙΚΑ ΜΑΘΗΜΑΤΑ ΓΙΑ ΤΙΣ ΕΞΕΤΑΣΕΙΣ ΤΟΥ ΕΥΡΩΠΑΪΚΟΥ ΔΙΠΛΩΜΑΤΟΣ
-              ΑΝΑΙΣΘΗΣΙΟΛΟΓΙΑΣ - ΜΑΙΟΣ 2021
-            </RedirectDiv>
+          <div
+            onClick={() =>
+              window.open("/../pdfs/ekpaideush/2021-05-ARETAIEIO.pdf")
+            }
+            className="pageMargin RedirectLinks pointer"
+          >
+            ΕΠΑΝΑΛΗΠΤΙΚΑ ΜΑΘΗΜΑΤΑ ΓΙΑ ΤΙΣ ΕΞΕΤΑΣΕΙΣ ΤΟΥ ΕΥΡΩΠΑΪΚΟΥ ΔΙΠΛΩΜΑΤΟΣ
+            ΑΝΑΙΣΘΗΣΙΟΛΟΓΙΑΣ - ΜΑΙΟΣ 2021
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://europeanpainfederation.eu/education/pain-schools/"
-            >
-              EFIC Pain Schools
-            </Link>
+          <div
+            onClick={() =>
+              window.open(
+                "https://europeanpainfederation.eu/education/pain-schools/"
+              )
+            }
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            EFIC Pain Schools
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://europeanpainfederation.eu/education/pain-exams/european-diploma-in-pain-medicine-edpm/"
-            >
-              EFIC European Diploma in Pain Medicine (EDPM)
-            </Link>
+          <div
+            onClick={() =>
+              window.open(
+                "https://europeanpainfederation.eu/education/pain-exams/european-diploma-in-pain-medicine-edpm/"
+              )
+            }
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            EFIC European Diploma in Pain Medicine (EDPM)
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://europeanpainfederation.eu/education/efic-fellowships/"
-            >
-              EFIC Fellowships
-            </Link>
+          <div
+            onClick={() =>
+              window.open(
+                "https://europeanpainfederation.eu/education/efic-fellowships/"
+              )
+            }
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            EFIC Fellowships
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://europeanpainfederation.eu/education/efic-education-platform/"
-            >
-              EFIC Education Platform
-            </Link>
+          <div
+            onClick={() =>
+              window.open(
+                "https://europeanpainfederation.eu/education/efic-education-platform/"
+              )
+            }
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            EFIC Education Platform
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://interventionalpainpractice.org/"
-            >
-              WIP Fellow of Interventional Pain Practice (FIPP)
-            </Link>
+          <div
+            onClick={() =>
+              window.open("https://interventionalpainpractice.org/")
+            }
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            WIP Fellow of Interventional Pain Practice (FIPP)
           </div>
-          <div className="pageMargin RedirectLinks pointer">
-            <Link
-              className="RemoveUnderLineLink"
-              to="https://esraeurope.org/edra/"
-            >
-              ESRA European Diploma in Regional Anaesthesia (EDRA)
-            </Link>
+          <div
+            onClick={() => window.open("https://esraeurope.org/edra/")}
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
+            ESRA European Diploma in Regional Anaesthesia (EDRA)
           </div>
         </div>
+        <Dots />
         <br />
         <br />
-        <div style={{ marginBottom: "50px" }}></div>
       </div>
     </MainLayout>
   );
