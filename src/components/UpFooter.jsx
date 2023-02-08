@@ -12,16 +12,16 @@ function UpFooter() {
                 style={{ marginLeft: "5px", marginRight: "5px" }}
                 className="col-lg-3"
               >
-                <Link to="https://www.iasp-pain.org/">
-                  <img
-                    style={{
-                      width: "100px",
-                      height: "50px",
-                    }}
-                    src="/images/logo/IASP_Logo_RGB_Color.jpg"
-                    alt="IASP"
-                  />
-                </Link>
+                <img
+                  onClick={() => window.open("https://www.iasp-pain.org/")}
+                  className="RedirectLinks pointer RemoveUnderLineLink"
+                  style={{
+                    width: "90px",
+                    height: "50px",
+                  }}
+                  src="/images/logo/IASP_Logo_RGB_Color.jpg"
+                  alt="IASP"
+                />
               </div>
             </td>
             <td>
@@ -29,16 +29,18 @@ function UpFooter() {
                 style={{ marginLeft: "5px", marginRight: "5px" }}
                 className="col-lg-3"
               >
-                <Link to="https://europeanpainfederation.eu/">
-                  <img
-                    style={{
-                      width: "100px",
-                      height: "50px",
-                    }}
-                    src="/images/logo/logo-efic.png"
-                    alt="IASP"
-                  />
-                </Link>
+                <img
+                  onClick={() =>
+                    window.open("https://europeanpainfederation.eu/")
+                  }
+                  className="RedirectLinks pointer RemoveUnderLineLink"
+                  style={{
+                    width: "90px",
+                    height: "50px",
+                  }}
+                  src="/images/logo/logo-efic.png"
+                  alt="efic"
+                />
               </div>
             </td>
             <td>
@@ -46,16 +48,16 @@ function UpFooter() {
                 style={{ marginLeft: "5px", marginRight: "5px" }}
                 className="col-lg-3"
               >
-                <Link to="https://www.sip-platform.eu/en">
-                  <img
-                    style={{
-                      width: "80px",
-                      height: "50px",
-                    }}
-                    src="/images/logo/logo_sip.png"
-                    alt="IASP"
-                  />
-                </Link>
+                <img
+                  onClick={() => window.open("hhttps://www.sip-platform.eu/en")}
+                  className="RedirectLinks pointer RemoveUnderLineLink"
+                  style={{
+                    width: "90px",
+                    height: "50px",
+                  }}
+                  src="/images/logo/logo_sip.png"
+                  alt="SIP"
+                />
               </div>
             </td>
             <td>
@@ -63,16 +65,18 @@ function UpFooter() {
                 style={{ marginLeft: "5px", marginRight: "5px" }}
                 className="col-lg-3"
               >
-                <Link to="https://anaesthesiology.gr/pages/gr.php">
-                  <img
-                    style={{
-                      width: "100px",
-                      height: "50px",
-                    }}
-                    src="/images/logo/_logo_eae_eea.jpg"
-                    alt="IASP"
-                  />
-                </Link>
+                <img
+                  onClick={() =>
+                    window.open("https://anaesthesiology.gr/pages/gr.php")
+                  }
+                  className="RedirectLinks pointer RemoveUnderLineLink"
+                  style={{
+                    width: "100px",
+                    height: "50px",
+                  }}
+                  src="/images/logo/_logo_eae_eea.jpg"
+                  alt="eae_eea"
+                />
               </div>
             </td>
           </tr>
