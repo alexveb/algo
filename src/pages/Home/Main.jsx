@@ -2,7 +2,6 @@ import MainLayout from "../../layout/MainLayout";
 import Dots from "../../layout/Dots";
 import { Link } from "react-router-dom";
 import RedirectDiv from "../../layout/RedirectDiv";
-import ScrollToSection from "../../layout/ScrollToSection";
 
 function Main() {
   return (
