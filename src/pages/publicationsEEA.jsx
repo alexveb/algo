@@ -61,18 +61,25 @@ function PublicationsEEA() {
           // onClick={() => window.open("/PublicationsEEA2018")}
           className="pageMargin RedirectLinks pointer"
         >
-          <RedirectDiv to="/PublicationsEEA2018">
+          {/* <RedirectDiv to="/PublicationsEEA2018"> */}
+          <a
+            href="/PublicationsEEA2018"
+            className="pageMargin RedirectLinks pointer RemoveUnderLineLink"
+          >
             ΣΥΝΕΧΙΖΟΜΕΝΗ ΕΚΠΑΙΔΕΥΣΗ ΣΤΗΝ ΑΛΓΟΛΟΓΙΑ 2018
-          </RedirectDiv>
+          </a>
+          {/* </RedirectDiv> */}
         </div>
         <Dots />
         <div className="pageMargin RedirectLinks pointer">
-          <RedirectDiv
+          {/* <RedirectDiv
             className="RemoveUnderLineLink"
             to="/do_not_suffer_in_silence"
-          >
+          > */}
+          <a href="/do_not_suffer_in_silence" className="RemoveUnderLineLink">
             ΜΗΝ ΥΠΟΦΕΡΕΤΕ ΣΙΩΠΗΛΑ
-          </RedirectDiv>
+          </a>
+          {/* </RedirectDiv> */}
         </div>
         <Dots />
         <div>
@@ -162,7 +169,6 @@ function PublicationsEEA() {
                     2005-2
                   </td>
                 </tr>
-                <br />
                 <tr>
                   <td
                     onClick={() =>
@@ -323,7 +329,6 @@ function PublicationsEEA() {
                     2008-1
                   </td>
                 </tr>
-                <br />
                 <tr>
                   <td
                     onClick={() =>

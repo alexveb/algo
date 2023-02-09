@@ -69,7 +69,7 @@ function InternationalConferencesAndEvents() {
                             }
                             className="RedirectLinks pointer RemoveUnderLineLink"
                           >
-                            <i class="fa-solid fa-link"></i>
+                            <i className="fa-solid fa-link"></i>
                           </span>
                         </td>
                         <td style={{ width: "100px" }}>
@@ -83,7 +83,7 @@ function InternationalConferencesAndEvents() {
                             }
                             className="RedirectLinks pointer RemoveUnderLineLink"
                           >
-                            <i class="fa-solid fa-link"></i>
+                            <i className="fa-solid fa-link"></i>
                           </span>
                         </td>
                       </tr>

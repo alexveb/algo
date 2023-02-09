@@ -344,8 +344,17 @@ footer div {
   }
 }
 
+.imgFooter {
+  width: 50%;
+  margin: auto;
+}
+
 .InternationalCon {
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.redAlert {
+  color: red;
 }

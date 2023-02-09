@@ -86,7 +86,7 @@ function GreekConferencesAndEvents() {
                 window.open("https://www.youtube.com/watch?v=cyy2wfUOI5Q")
               }
             >
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-youtube"></i>
             </strong>{" "}
             |{" "}
             <span

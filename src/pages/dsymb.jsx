@@ -7,38 +7,38 @@ function DSymb() {
       <div>
         <h3 className="pageMargin">ΔΙΟΙΚΗΤΙΚΟ ΣΥΜΒΟΥΛΙΟ</h3>
         <div className="dsymb2023a">Ιανουάριος 2023 - Ιανουάριος 2026</div>
-        <table className="dsymb2023t">
+        <table style={{ fontSize: "0.9rem" }} className="dsymb2023t">
           <thead>
             <tr></tr>
           </thead>
           <tbody>
             <tr>
-              <td style={{ width: "160px" }}>
+              <td style={{ width: "160px", textAlign: "left" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
               </td>
               <td style={{ textAlign: "left" }}>Χρονά Ελένη</td>
             </tr>
 
             <tr>
-              <td style={{ width: "160px" }}>
+              <td style={{ width: "160px", textAlign: "left" }}>
                 <strong>ΑΝΤΙΠΡΟΕΔΡΟΣ</strong>
               </td>
               <td style={{ textAlign: "left" }}>Κολοτούρα Αθηνά</td>
             </tr>
             <tr>
-              <td style={{ width: "160px" }}>
+              <td style={{ width: "160px", textAlign: "left" }}>
                 <strong>ΓΕΝ. ΓΡΑΜΜΑΤΕΑΣ</strong>
               </td>
               <td style={{ textAlign: "left" }}>Τσιρογιάννη Αικατερίνη</td>
             </tr>
             <tr>
-              <td style={{ width: "160px" }}>
-                <strong>ΤΑΜΙΑΣ</strong>
+              <td style={{ width: "160px", textAlign: "left" }}>
+                <strong>ΤΑΜΙΑΣ:</strong>
               </td>
               <td style={{ textAlign: "left" }}>Αρναούτογλου Ελένη</td>
             </tr>
             <tr>
-              <td style={{ width: "160px" }}>
+              <td style={{ width: "160px", textAlign: "left" }}>
                 <strong>ΜΕΛΗ:</strong>
               </td>
               <td style={{ textAlign: "left" }}>Κετεκίδου Ευγενία</td>
@@ -52,8 +52,8 @@ function DSymb() {
               <td style={{ textAlign: "left" }}>Πουλοπούλου Σοφία</td>
             </tr>
             <tr>
-              <td>
-                <strong>ΑΝΑΠΛ. ΜΕΛΗ</strong>
+              <td style={{ width: "160px", textAlign: "left" }}>
+                <strong>ΑΝΑΠΛ. ΜΕΛΗ:</strong>
               </td>
               <td style={{ textAlign: "left" }}>Βαρβέρη Μαριάνθη</td>
             </tr>
@@ -62,7 +62,7 @@ function DSymb() {
               <td style={{ textAlign: "left" }}>Μπαρέκα Μεταξά</td>
             </tr>
             <tr>
-              <td style={{ width: "160px" }}>
+              <td style={{ width: "160px", textAlign: "left" }}>
                 <strong>ΣΥΜΒΟΥΛΟΣ EFIC</strong>
               </td>
               <td style={{ textAlign: "left" }}>Βαγδατλή Κυριακή</td>

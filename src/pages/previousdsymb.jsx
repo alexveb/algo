@@ -13,7 +13,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -62,7 +62,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -111,7 +111,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -160,7 +160,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -209,7 +209,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -258,7 +258,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -309,7 +309,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -358,7 +358,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -407,7 +407,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -456,7 +456,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -505,7 +505,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>
@@ -554,7 +554,7 @@ function PrevDSymboulia() {
           <thead>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody style={{ fontSize: "0.9rem" }}>
             <tr>
               <td style={{ width: "160px" }}>
                 <strong>ΠΡΟΕΔΡΟΣ</strong>

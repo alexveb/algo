@@ -31,9 +31,9 @@ function FooterInfo() {
           </div>
           <br />
           <div className="RedirectLinks pointer">
-            <Link className="RemoveUnderLineLink" to="/aitisi-eggrafis-melous">
+            <a className="RemoveUnderLineLink" href="/aitisi-eggrafis-melous">
               Αίτηση Εγγραφής Μέλους Ε.Ε.Α.
-            </Link>
+            </a>
           </div>
           <br />
           <div>
