@@ -9,8 +9,7 @@ function Article7() {
         <div className="pageMargin">
           <h3>Ανάκληση ενέσιμων κορτικοστεροειδών φαρμάκων από τον ΕΟΦ</h3>
         </div>
-        <div className="pageMargin"></div>
-        <div className="pageMargin GreekConMobile GreekCon">
+        <div className="GreekConMobile GreekCon">
           <br />
           <br />
           Ενημέρωση Στην ανάκληση παρτίδων των ενέσιμων κορτικοστεροειδών
