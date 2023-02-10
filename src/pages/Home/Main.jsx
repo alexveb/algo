@@ -2,7 +2,6 @@ import MainLayout from "../../layout/MainLayout";
 import Dots from "../../layout/Dots";
 import { Link } from "react-router-dom";
 import RedirectDiv from "../../layout/RedirectDiv";
-import ScrollToTopButton from "../../layout/ScrollUp";
 
 function Main() {
   return (
@@ -384,7 +383,6 @@ function Main() {
         </div>
         <br />
         <br />
-        <ScrollToTopButton />
       </div>
     </MainLayout>
   );
