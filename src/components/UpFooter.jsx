@@ -49,7 +49,7 @@ function UpFooter() {
                 className="col-lg-3"
               >
                 <img
-                  onClick={() => window.open("hhttps://www.sip-platform.eu/en")}
+                  onClick={() => window.open("https://www.sip-platform.eu/en")}
                   className="RedirectLinks pointer RemoveUnderLineLink"
                   style={{
                     width: "90px",

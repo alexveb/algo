@@ -24,6 +24,7 @@ import Article5 from "../pages/Home/Links/Article5";
 import Article6 from "../pages/Home/Links/Article6";
 import Article7 from "../pages/Home/Links/Article7";
 import Article8 from "../pages/Home/Links/Article8";
+import BackToTopButton from "../layout/BackToTopButton";
 
 function App() {
   return (

@@ -26,9 +26,9 @@ body {
 }
 
 /* navbar not overwrite */
-.navContent {
+/* .navContent {
   z-index: 999;
-}
+} */
 
 .heading {
   text-align: center;
@@ -358,3 +358,5 @@ footer div {
 .redAlert {
   color: red;
 }
+
+/* BUTTON UP */
