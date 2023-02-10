@@ -88,3 +88,7 @@ yarn-error.log*
 
 # PDF Files
 *.pdf
+
+# Word files
+*.doc
+*.docx
