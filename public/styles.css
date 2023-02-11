@@ -7,16 +7,11 @@ html {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-@media (max-width: 1200px) {
-  .html {
-    font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
-  }
-}
 
 /* body style  */
 /* Fix Right Side Space where not get full side of screen */
 
+html,
 body {
   width: 100%;
   height: 100%;
