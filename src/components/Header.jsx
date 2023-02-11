@@ -46,14 +46,14 @@ function Header() {
           <Button
             className="loginRegister loginRegister"
             variant="primary"
-            href="#"
+            href="/login"
           >
             Είσοδος <i className="fa-solid fa-right-to-bracket"></i>
           </Button>
           <Button
             className="loginRegister loginRegister"
             variant="primary"
-            href="#"
+            href="/register"
           >
             Εγγραφή <i className="fa-solid fa-user-plus"></i>
           </Button>

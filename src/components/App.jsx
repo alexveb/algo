@@ -24,6 +24,11 @@ import Article5 from "../pages/Home/Links/Article5";
 import Article6 from "../pages/Home/Links/Article6";
 import Article7 from "../pages/Home/Links/Article7";
 import Article8 from "../pages/Home/Links/Article8";
+import Register from "../pages/register";
+import Login from "../pages/login";
+import Forum from "../pages/algologiaForum";
+import AdminPanel from "./AdminPanel";
+import Checkbox from "./CountDown";
 
 function App() {
   return (
@@ -65,6 +70,11 @@ function App() {
         <Route path="/Article6" element={<Article6 />} />
         <Route path="/Article7" element={<Article7 />} />
         <Route path="/Article8" element={<Article8 />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/algologiaForum" element={<Forum />} />
+        <Route path="/AdminPanel" element={<AdminPanel />} />
+        <Route path="/countdown" element={<Checkbox />} />
       </Routes>
     </Router>
   );
