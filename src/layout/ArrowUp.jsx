@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const ScrollToTopButton = () => {
+const ArrowUp = () => {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const ScrollToTopButton = () => {
         position: "fixed",
         bottom: 20,
         right: 20,
-        backgroundColor: "#333",
+        backgroundColor: "#0D6EFD", //"#333"
         color: "#fff",
         border: "none",
         borderRadius: 5,
@@ -38,9 +38,9 @@ const ScrollToTopButton = () => {
       }}
       onClick={scrollToTop}
     >
-      TEXT
+      <i className="fa-solid fa-arrow-up"></i>
     </button>
   );
 };
 
-export default ScrollToTopButton;
+export default ArrowUp;

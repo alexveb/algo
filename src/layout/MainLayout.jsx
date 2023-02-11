@@ -5,8 +5,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import UpFooter from "../components/UpFooter";
 import FooterInfo from "../components/FooterInfo";
-import BackToTopButton from "./BackToTopButton";
-import ScrollToTopButton from "./ScrollUp";
+import ArrowUp from "./ArrowUp";
 
 function MainLayout({ children }) {
   return (
@@ -18,7 +17,7 @@ function MainLayout({ children }) {
       <UpFooter />
       <FooterInfo />
       <Footer />
-      <ScrollToTopButton />
+      <ArrowUp />
     </div>
   );
 }
